@@ -1,11 +1,13 @@
 import './App.css';
-import Tasks from './pages/Tasks';
+import DarkMode from './components/DarkMode/DarkMode';
+import AllTasks from './pages/AllTasks';
 
 function App() {
   return (
     <div className="App">
      <h1>State Lifting</h1>
-    <Tasks></Tasks>
+    <AllTasks></AllTasks>
+   <DarkMode></DarkMode>
     </div>
   );
 }
